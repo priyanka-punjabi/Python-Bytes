@@ -1,3 +1,7 @@
+'''
+    @author: Priyanka Punjabi
+'''
+
 class Solution:
     def checkPossibility(self, A):
         p = None
@@ -7,7 +11,6 @@ class Solution:
                     return False
                 p = i
         return True
-
 
 m = Solution()
 a = [1, 2, 3, 4, 8, 9, 6]
