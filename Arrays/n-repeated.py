@@ -1,6 +1,8 @@
+'''
+    @author: Priyanka Punjabi
+'''
+
 import operator
-
-
 class Solution:
     def repeatedNTimes(self, array: 'List[int]'):
         check = dict()
@@ -9,9 +11,9 @@ class Solution:
                 check[array[i]] += 1
             else:
                 check[array[i]] = 1
-        res = max(check.items(), key=operator.itemgetter(1))[0]
-        print(res)
+        result = max(check.items(), key=operator.itemgetter(1))[0]
+        print(result)
 
 
-m = Solution()
-m.repeatedNTimes([2, 1, 2, 5, 3, 2])
+instance = Solution()
+instance.repeatedNTimes([2, 1, 2, 5, 3, 2])
