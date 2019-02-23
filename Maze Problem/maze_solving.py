@@ -52,7 +52,7 @@ class Maze:
     def maze_solve(self):
         print("Generating Graph from Maze...")
         maze = []
-        with open("data1.txt") as f:
+        with open("data.txt") as f:
             first_line = f.readline()
             self.width = len(first_line.strip().split(" "))
             f.seek(0)
