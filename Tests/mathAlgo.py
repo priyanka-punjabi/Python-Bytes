@@ -1,8 +1,6 @@
 """
 @author: Priyanka Punjabi
 """
-
-
 def solution(S):
     v = int(S, 2)
     count = 0
